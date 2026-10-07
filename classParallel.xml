@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite5" parallel="classes">
+	<test name="yedho ondru ennai thaaka!!!" thread-count="4">
+		<classes>
+			<class name="org.parallelExecution.ClassLevel1"></class>
+			<class name="org.parallelExecution.ClassLevel2"></class>
+			<class name="org.parallelExecution.ClassLevel3"></class>
+
+		</classes>
+
+
+	</test>
+
+
+</suite>
